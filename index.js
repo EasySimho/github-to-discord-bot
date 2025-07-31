@@ -1,8 +1,7 @@
-const express = require('express');
-const axios = require('axios');
-const bodyParser = require('body-parser');
+import express from 'express';
+import axios from 'axios';
+import bodyParser from 'body-parser';
 
-// Inserisci qui il tuo Discord Webhook
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
 const app = express();
